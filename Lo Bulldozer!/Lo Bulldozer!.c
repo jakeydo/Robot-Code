@@ -1,11 +1,10 @@
 // Created on Fri May 15 2015
-
+//lolo is awesome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 int main()
 {
 	printf("Let's bulldoze!!!!\n");
-	
 	//Point to the right for start
-	
+
 	//Go straight
 	mav(2, 1000); 
 	mav(0, 1000); 
@@ -49,9 +48,9 @@ int main()
 	msleep(1000);
 	
 	//Go straight for a while
-	mav(2, 1000);	
-	mav(0, 1000);
-	msleep(10000);	
+	mav(2, 500);	
+	mav(0, 500);
+	msleep(20000);	
 	ao();
 	
 	//Pick up servo
